@@ -1,0 +1,6 @@
+# How to run classify_image_test.py
+
+python3 classify_image_test.py \
+    --model tflite_file.tflite \
+    --labels labels.txt \
+    --input test_image.jpg
