@@ -24,7 +24,7 @@
 
 ```python
 # Example
-python classify_image_test.py \ --model tflite_name.tflite \ --labels labels.txt \ --input test_data/Clip.jpg
+python3 classify_image_test.py --model tflite_file_edgetpu.tflite --labels labels.txt --input test_data/Clip.jpg
 ```
 
 ## [References:](#references)
